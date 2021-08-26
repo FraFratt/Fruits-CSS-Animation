@@ -1,0 +1,264 @@
+body {
+  margin: 0px;
+  background-color: #284e78;
+  background: rgb(34, 97, 195);
+  background: linear-gradient(
+    63deg,
+    rgba(34, 97, 195, 1) 0%,
+    rgba(83, 236, 167, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Recuadro {
+  width: 440px;
+  height: 400px;
+  background-color: whitesmoke;
+  border-radius: 64px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 154px;
+}
+
+/* Frutabox = contenedor etiqueta */
+.FrutaBox {
+  width: 430px;
+  height: 390px;
+  background-color: rgb(31, 28, 28);
+  border-radius: 64px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  *position: absolute;
+  margin-top: 5px;
+  z-index: 9999;
+}
+
+.Etiqueta1,
+.Etiqueta2,
+.Etiqueta3,
+.Etiqueta4,
+.Etiqueta5,
+.CajaFrutera,
+.TapaCaja1,
+.TapaCaja2,
+.Cinta,
+.MediCirc,
+.MedCirc1,
+h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Etiqueta1 {
+  width: 100px;
+  height: 140px;
+  background-color: #005ca8;
+  margin-top: 46px;
+  border-radius: 64px;
+}
+
+.Etiqueta2 {
+  width: 80px;
+  height: 120px;
+  background-color: #ffdf00;
+  margin-top: 10px;
+  border-radius: 64px;
+  z-index: 9999;
+}
+
+.Etiqueta3 {
+  width: 72px;
+  height: 114px;
+  background-color: #005ca8;
+  margin-top: 3px;
+  border-radius: 64px;
+  z-index: 9999;
+}
+.Etiqueta4 {
+  border-radius: 64px;
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 19px;
+  z-index: 9999;
+  margin-top: 76px;
+  position: absolute;
+  color: white;
+  background-color: #005ca8;
+}
+
+.Etiqueta5 {
+  height: 4px;
+  width: 4px;
+  box-shadow: 68px 16px 0 0 rgba(48, 63, 70, 1),
+    72px 16px 0 0 rgba(255, 152, 0, 1), 64px 20px 0 0 rgba(255, 152, 0, 1),
+    68px 20px 0 0 rgba(255, 152, 0, 1), 72px 20px 0 0 rgba(255, 152, 0, 1),
+    64px 24px 0 0 rgba(255, 193, 7, 1), 68px 24px 0 0 rgba(255, 193, 7, 1),
+    72px 24px 0 0 rgba(255, 152, 0, 1), 60px 28px 0 0 rgba(255, 193, 7, 1),
+    64px 28px 0 0 rgba(255, 193, 7, 1), 68px 28px 0 0 rgba(255, 193, 7, 1),
+    60px 32px 0 0 rgba(255, 193, 7, 1), 64px 32px 0 0 rgba(255, 193, 7, 1),
+    68px 32px 0 0 rgba(255, 193, 7, 1), 60px 36px 0 0 rgba(255, 193, 7, 1),
+    64px 36px 0 0 rgba(255, 193, 7, 1), 68px 36px 0 0 rgba(255, 193, 7, 1),
+    60px 40px 0 0 rgba(255, 193, 7, 1), 64px 40px 0 0 rgba(255, 193, 7, 1),
+    68px 40px 0 0 rgba(255, 193, 7, 1), 72px 40px 0 0 rgba(255, 193, 7, 1),
+    60px 44px 0 0 rgba(255, 193, 7, 1), 64px 44px 0 0 rgba(255, 193, 7, 1),
+    68px 44px 0 0 rgba(255, 193, 7, 1), 72px 44px 0 0 rgba(255, 193, 7, 1),
+    60px 48px 0 0 rgba(255, 193, 7, 1), 64px 48px 0 0 rgba(255, 152, 0, 1),
+    68px 48px 0 0 rgba(255, 193, 7, 1), 72px 48px 0 0 rgba(255, 193, 7, 1),
+    76px 48px 0 0 rgba(255, 193, 7, 1), 64px 52px 0 0 rgba(255, 193, 7, 1),
+    68px 52px 0 0 rgba(255, 152, 0, 1), 72px 52px 0 0 rgba(255, 193, 7, 1),
+    76px 52px 0 0 rgba(255, 193, 7, 1), 80px 52px 0 0 rgba(255, 193, 7, 1),
+    64px 56px 0 0 rgba(255, 193, 7, 1), 68px 56px 0 0 rgba(255, 193, 7, 1),
+    72px 56px 0 0 rgba(255, 152, 0, 1), 76px 56px 0 0 rgba(255, 193, 7, 1),
+    80px 56px 0 0 rgba(255, 193, 7, 1), 84px 56px 0 0 rgba(255, 193, 7, 1),
+    68px 60px 0 0 rgba(255, 193, 7, 1), 72px 60px 0 0 rgba(255, 193, 7, 1),
+    76px 60px 0 0 rgba(255, 193, 7, 1), 80px 60px 0 0 rgba(255, 193, 7, 1),
+    84px 60px 0 0 rgba(255, 193, 7, 1), 88px 60px 0 0 rgba(255, 193, 7, 1),
+    76px 64px 0 0 rgba(255, 193, 7, 1), 80px 64px 0 0 rgba(255, 193, 7, 1),
+    84px 64px 0 0 rgba(255, 193, 7, 1), 88px 64px 0 0 rgba(255, 193, 7, 1),
+    92px 64px 0 0 rgba(255, 193, 7, 1), 80px 68px 0 0 rgba(255, 193, 7, 1),
+    84px 68px 0 0 rgba(255, 193, 7, 1), 88px 68px 0 0 rgba(255, 193, 7, 1),
+    92px 68px 0 0 rgba(255, 193, 7, 1), 96px 68px 0 0 rgba(255, 193, 7, 1),
+    88px 72px 0 0 rgba(255, 152, 0, 1), 92px 72px 0 0 rgba(255, 193, 7, 1),
+    96px 72px 0 0 rgba(255, 193, 7, 1), 100px 72px 0 0 rgba(255, 193, 7, 1),
+    96px 76px 0 0 rgba(255, 235, 59, 1), 100px 76px 0 0 rgba(48, 63, 70, 1);
+  position: absolute;
+  z-index: 9999;
+  margin-left: -156px;
+  margin-top: -3;
+}
+
+/* Recuadro animacion banana dibu */
+.Bananita {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  *background-color: yellow;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin-top: 120px;
+  z-index: -1;
+  animation: bajada 5500ms infinite;
+  transform: rotate(90deg);
+}
+
+@keyframes bajada {
+  from {
+    top: 120px;
+  }
+  to {
+    top: 340px;
+  }
+}
+
+/* Cuidado rotate tocados*/
+.FruDibu {
+  width: 20px;
+  height: 20px;
+  transform: rotate(-90deg);
+  text-align: center;
+  display: flex;
+  position: absolute;
+  font-size: 28px;
+  margin-top: 7px;
+}
+
+.FruDibu2 {
+  width: 20px;
+  height: 20px;
+  transform: rotate(-90deg);
+  text-align: center;
+  display: flex;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -20px;
+  font-size: 24px;
+  transform: rotate(5deg);
+}
+
+.CajaFrutera {
+  width: 120px;
+  height: 90px;
+  background-color: #a15702;
+  position: absolute;
+  z-index: 9999;
+  margin-top: 300px;
+}
+
+.TapaCaja1 {
+  width: 3px;
+  height: 60px;
+  background-color: #a15702;
+  position: absolute;
+  z-index: 9999;
+  margin-top: 299px;
+
+  margin-left: -136px;
+  transform: rotate(15deg);
+}
+.TapaCaja2 {
+  width: 3px;
+  height: 60px;
+  background-color: #a15702;
+  position: absolute;
+  z-index: 9999;
+  margin-top: 299px;
+
+  margin-left: 136px;
+  transform: rotate(-15deg);
+}
+
+.Cinta {
+  width: 24px;
+  height: 20px;
+  background-color: #9e5d37;
+  position: absolute;
+  z-index: 9999;
+  margin-top: 370px;
+}
+
+.MedCirc {
+  width: 12px;
+  height: 6px;
+  border: 1px solid #3f2303;
+  background: #3f2303;
+  border-radius: 100px 100px 0 0;
+  position: absolute;
+  z-index: 99999;
+  margin-top: 12px;
+  margin-left: -80px;
+}
+
+.MedCirc1 {
+  width: 12px;
+  height: 6px;
+  border: 1px solid #3f2303;
+  background: #3f2303;
+  border-radius: 100px 100px 0 0;
+  position: absolute;
+  z-index: 99999;
+  margin-top: 12px;
+  margin-left: 80px;
+}
+
+h1 {
+  position: absolute;
+  color: whitesmoke;
+  margin-top: 444px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: black;
+  padding: 6px;
+  text-align: center;
+}
+
+/* Hecho con 💚 por Franco Frattaroli:  https://codepen.io/frafratt */
